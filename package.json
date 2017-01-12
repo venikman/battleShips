@@ -16,7 +16,7 @@
     "url": "git@github.com:venikman/battleShips.git"
   },
   "bugs": {
-    "url": "https://github.com/venikman/battleShips/issues",
+    "url": "https://github.com/venikman/battleShips/issues"
   },
   "engines": {
     "node": ">=6"
@@ -45,6 +45,7 @@
     "fun"
   ],
   "xo": {
-    "extend": "tidy"
+    "extend": "tidy",
+     "env": "browser"
   }
 }
