@@ -1,0 +1,50 @@
+{
+  "name": "battleship",
+  "version": "0.1.0",
+  "description": "A guessing game to battle for control of the sea.",
+  "homepage": "https://github.com/venikman/battleShips",
+  "main": "js/main.js",
+  "author": {
+    "name": "Stan",
+    "url": "https://github.com/venikman"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:venikman/battleShips.git"
+  },
+  "bugs": {
+    "url": "https://github.com/venikman/battleShips/issues",
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "license": "MPL-2.0",
+  "files": [
+    "js",
+    "img",
+    "index.html"
+  ],
+  "devDependencies": {
+    "eslint-config-tidy": "^0.4.0",
+    "xo": "^0.17.1"
+  },
+  "keywords": [
+    "board",
+    "game",
+    "games",
+    "ship",
+    "ships",
+    "battleship",
+    "battleships",
+    "guess",
+    "guessing",
+    "strategy",
+    "fun"
+  ],
+  "xo": {
+    "extend": "tidy"
+  }
+}
